@@ -38,7 +38,7 @@ def generative_replay_smnist(override_args=None):
         train_mb_size=args.train_mb_size,
         train_epochs=args.epochs,
         eval_mb_size=128,
-        replay_size=150,
+        replay_size=200,
         device=device,
         evaluator=evaluation_plugin,
     )
